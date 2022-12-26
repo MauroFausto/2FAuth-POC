@@ -1,3 +1,5 @@
+using static System.Web.Razor.Parser.SyntaxConstants;
+
 namespace _2FAuthApplication
 {
     public class Program
@@ -25,10 +27,9 @@ namespace _2FAuthApplication
             app.UseRouting();
 
             app.UseAuthorization();
-
             app.MapRazorPages();
-
             app.Run();
+
         }
     }
 }

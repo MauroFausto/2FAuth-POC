@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Usuario\.nuget\packages\newtonsoft.json\6.0.4</PkgNewtonsoft_Json>
     <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\Usuario\.nuget\packages\webgrease\1.5.2</PkgWebGrease>
     <PkgModernizr Condition=" '$(PkgModernizr)' == '' ">C:\Users\Usuario\.nuget\packages\modernizr\2.6.2</PkgModernizr>
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Usuario\.nuget\packages\jquery\1.10.2</PkgjQuery>

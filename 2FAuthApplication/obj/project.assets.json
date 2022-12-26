@@ -45,7 +45,7 @@
           "jQuery": "1.4.4"
         }
       },
-      "Microsoft.AspNet.Identity.Core/2.2.2": {
+      "Microsoft.AspNet.Identity.Core/2.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
@@ -75,10 +75,10 @@
           }
         }
       },
-      "Microsoft.AspNet.Identity.Owin/2.2.2": {
+      "Microsoft.AspNet.Identity.Owin/2.2.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Identity.Core": "2.2.2",
+          "Microsoft.AspNet.Identity.Core": "2.2.3",
           "Microsoft.Owin.Security": "3.0.1",
           "Microsoft.Owin.Security.Cookies": "3.0.1",
           "Microsoft.Owin.Security.OAuth": "3.0.1"
@@ -203,19 +203,19 @@
           "jQuery.Validation": "1.8.0"
         }
       },
-      "Microsoft.Owin/3.0.1": {
+      "Microsoft.Owin/4.2.2": {
         "type": "package",
         "dependencies": {
           "Owin": "1.0.0"
         },
         "compile": {
           "lib/net45/Microsoft.Owin.dll": {
-            "related": ".XML"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/Microsoft.Owin.dll": {
-            "related": ".XML"
+            "related": ".xml"
           }
         }
       },
@@ -236,28 +236,28 @@
           }
         }
       },
-      "Microsoft.Owin.Security/2.1.0": {
+      "Microsoft.Owin.Security/4.2.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Owin": "2.1.0",
+          "Microsoft.Owin": "4.2.2",
           "Owin": "1.0.0"
         },
         "compile": {
           "lib/net45/Microsoft.Owin.Security.dll": {
-            "related": ".XML"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/Microsoft.Owin.Security.dll": {
-            "related": ".XML"
+            "related": ".xml"
           }
         }
       },
-      "Microsoft.Owin.Security.Cookies/2.1.0": {
+      "Microsoft.Owin.Security.Cookies/4.2.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Owin": "2.1.0",
-          "Microsoft.Owin.Security": "2.1.0",
+          "Microsoft.Owin": "4.2.2",
+          "Microsoft.Owin.Security": "4.2.2",
           "Owin": "1.0.0"
         },
         "compile": {
@@ -378,7 +378,7 @@
       "Modernizr/2.6.2": {
         "type": "package"
       },
-      "Newtonsoft.Json/5.0.6": {
+      "Newtonsoft.Json/6.0.4": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {
@@ -517,16 +517,16 @@
         "jquery.validation.nuspec"
       ]
     },
-    "Microsoft.AspNet.Identity.Core/2.2.2": {
-      "sha512": "aZoXAqqisAQlEdeMwcn204m7ErUeYXJuoZ4YqvV85OPeB0w8o8kW8Ww5o5ZTZFx3mrLmmtfWKjt4nLqfjzjXEw==",
+    "Microsoft.AspNet.Identity.Core/2.2.3": {
+      "sha512": "Mv5FpoaxspE8hlWLE4r1IdZtovg/OyFgVRhxQbx47J4sqdLImN1hnM1lnwCj+/wLmqtqFk/RYMoZ5GAcwm/00g==",
       "type": "package",
-      "path": "microsoft.aspnet.identity.core/2.2.2",
+      "path": "microsoft.aspnet.identity.core/2.2.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.AspNet.Identity.Core.dll",
         "lib/net45/Microsoft.AspNet.Identity.Core.xml",
-        "microsoft.aspnet.identity.core.2.2.2.nupkg.sha512",
+        "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
         "microsoft.aspnet.identity.core.nuspec"
       ]
     },
@@ -543,16 +543,16 @@
         "microsoft.aspnet.identity.entityframework.nuspec"
       ]
     },
-    "Microsoft.AspNet.Identity.Owin/2.2.2": {
-      "sha512": "oZ+whh1KqOmX/ODPy2gXmgDF3vq0bg1NX1Jsr07+DTtOn/3xh6PCPouNPMhNrVRHfe3E7zPdTUnagnHNr1zUXQ==",
+    "Microsoft.AspNet.Identity.Owin/2.2.3": {
+      "sha512": "gNr7dQGE23hAtWmSZVmKPJ+DKBw/obh68Ub7M5cCUiRNAqg6+6Jb3T7en4Fuw8R/8H5/sIsecrfT3MbK2/FzEg==",
       "type": "package",
-      "path": "microsoft.aspnet.identity.owin/2.2.2",
+      "path": "microsoft.aspnet.identity.owin/2.2.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.AspNet.Identity.Owin.dll",
         "lib/net45/Microsoft.AspNet.Identity.Owin.xml",
-        "microsoft.aspnet.identity.owin.2.2.2.nupkg.sha512",
+        "microsoft.aspnet.identity.owin.2.2.3.nupkg.sha512",
         "microsoft.aspnet.identity.owin.nuspec"
       ]
     },
@@ -700,16 +700,17 @@
         "microsoft.jquery.unobtrusive.validation.nuspec"
       ]
     },
-    "Microsoft.Owin/3.0.1": {
-      "sha512": "64yZsGN9uRnXNVAyAT4F6KWmdDUJ6yX4uqzxKTdGANKH1oMt0IKZ7THRRa3mXIOo8iSu4tq/DCBUycUY9pXZzw==",
+    "Microsoft.Owin/4.2.2": {
+      "sha512": "jt410l/8dvCIguRdU7dupYdm4kGLepVdD8EOTKU4nYZcLRrn6kQYqI6pbJOTJp7Vlm/T2WUF5bzyKK2z29xtjg==",
       "type": "package",
-      "path": "microsoft.owin/3.0.1",
+      "path": "microsoft.owin/4.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Microsoft.Owin.XML",
+        "Icon.png",
         "lib/net45/Microsoft.Owin.dll",
-        "microsoft.owin.3.0.1.nupkg.sha512",
+        "lib/net45/Microsoft.Owin.xml",
+        "microsoft.owin.4.2.2.nupkg.sha512",
         "microsoft.owin.nuspec"
       ]
     },
@@ -728,29 +729,31 @@
         "microsoft.owin.host.systemweb.nuspec"
       ]
     },
-    "Microsoft.Owin.Security/2.1.0": {
-      "sha512": "4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
+    "Microsoft.Owin.Security/4.2.2": {
+      "sha512": "nEgJYWfSrbp/u2FnIkmiLUuWUyFX8xC/gtnwN9r1rV+iT/E10rMinGbaxQvSHlkhHBnUgzriYwCaMhMExxpyhQ==",
       "type": "package",
-      "path": "microsoft.owin.security/2.1.0",
+      "path": "microsoft.owin.security/4.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Microsoft.Owin.Security.XML",
+        "Icon.png",
         "lib/net45/Microsoft.Owin.Security.dll",
-        "microsoft.owin.security.2.1.0.nupkg.sha512",
+        "lib/net45/Microsoft.Owin.Security.xml",
+        "microsoft.owin.security.4.2.2.nupkg.sha512",
         "microsoft.owin.security.nuspec"
       ]
     },
-    "Microsoft.Owin.Security.Cookies/2.1.0": {
-      "sha512": "P+3cjwBpUDGF+5s+oMfyySG0qvLqb71M+1q9jGSsaF0qCg14ix0qF5pEV6IqhGUEgV40E/1K4hDcWjS+essVoQ==",
+    "Microsoft.Owin.Security.Cookies/4.2.2": {
+      "sha512": "/YTwRJlmJrsOXFT2KrkrQi32X54iNAae5Ev5tB5YK1069d/6U2tXxtheXkEG8UEf/1O57igfEMF7bk3fuOI6qg==",
       "type": "package",
-      "path": "microsoft.owin.security.cookies/2.1.0",
+      "path": "microsoft.owin.security.cookies/4.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/net45/Microsoft.Owin.Security.Cookies.dll",
         "lib/net45/Microsoft.Owin.Security.Cookies.xml",
-        "microsoft.owin.security.cookies.2.1.0.nupkg.sha512",
+        "microsoft.owin.security.cookies.4.2.2.nupkg.sha512",
         "microsoft.owin.security.cookies.nuspec"
       ]
     },
@@ -847,10 +850,11 @@
         "modernizr.nuspec"
       ]
     },
-    "Newtonsoft.Json/5.0.6": {
-      "sha512": "Z594WlU7Wndv4vQxwsS7ym2y2Izsuw5U86UxQbx6YIKIjVju7V7OU4l1QQl5fM9AmPdzWIOxSlonzuQzzulMaw==",
+    "Newtonsoft.Json/6.0.4": {
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
       "type": "package",
-      "path": "newtonsoft.json/5.0.6",
+      "path": "newtonsoft.json/6.0.4",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -864,12 +868,13 @@
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netcore45/Newtonsoft.Json.dll",
         "lib/netcore45/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8/Newtonsoft.Json.xml",
-        "newtonsoft.json.5.0.6.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
       ]
     },
     "Owin/1.0.0": {
@@ -916,7 +921,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNet.Identity.Samples >= 2.2.0-alpha1"
+      "Microsoft.AspNet.Identity.Owin >= 2.2.3",
+      "Microsoft.AspNet.Identity.Samples >= 2.2.0-alpha1",
+      "Microsoft.Owin.Security.Cookies >= 4.2.2",
+      "Newtonsoft.Json >= 6.0.4"
     ]
   },
   "packageFolders": {
@@ -964,9 +972,21 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNet.Identity.Owin": {
+            "target": "Package",
+            "version": "[2.2.3, )"
+          },
           "Microsoft.AspNet.Identity.Samples": {
             "target": "Package",
             "version": "[2.2.0-alpha1, )"
+          },
+          "Microsoft.Owin.Security.Cookies": {
+            "target": "Package",
+            "version": "[4.2.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[6.0.4, )"
           }
         },
         "imports": [
@@ -1017,7 +1037,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net6.0"
@@ -1037,7 +1057,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Owin",
       "targetGraphs": [
         "net6.0"
@@ -1087,7 +1107,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
         "net6.0"
@@ -1107,7 +1127,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
         "net6.0"
@@ -1117,7 +1137,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security.Cookies 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security.Cookies 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security.Cookies",
       "targetGraphs": [
         "net6.0"
@@ -1187,7 +1207,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json 5.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Newtonsoft.Json 6.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net6.0"
@@ -1209,33 +1229,6 @@
       "warningLevel": 1,
       "message": "Package 'WebGrease 1.5.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "WebGrease",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.Owin.Security from 3.0.1 to 2.1.0. Reference the package directly from the project to select a different version. \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Microsoft.AspNet.Identity.Owin 2.2.2 -> Microsoft.Owin.Security (>= 3.0.1) \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Microsoft.Owin.Security (>= 2.1.0)",
-      "libraryId": "Microsoft.Owin.Security",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.Owin.Security.Cookies from 3.0.1 to 2.1.0. Reference the package directly from the project to select a different version. \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Microsoft.AspNet.Identity.Owin 2.2.2 -> Microsoft.Owin.Security.Cookies (>= 3.0.1) \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Microsoft.Owin.Security.Cookies (>= 2.1.0)",
-      "libraryId": "Microsoft.Owin.Security.Cookies",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Newtonsoft.Json from 6.0.4 to 5.0.6. Reference the package directly from the project to select a different version. \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Microsoft.AspNet.Identity.Owin 2.2.2 -> Microsoft.Owin.Security.OAuth 3.0.1 -> Newtonsoft.Json (>= 6.0.4) \r\n 2FAuthApplication -> Microsoft.AspNet.Identity.Samples 2.2.0-alpha1 -> Newtonsoft.Json (>= 5.0.6)",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net6.0"
       ]
